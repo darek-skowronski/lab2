@@ -1,0 +1,22 @@
+<div>
+    <h1>Lista</h1>
+
+    <div class="clearfix m-b-30">
+        <h3>Filtrowanie</h3>
+        <input type="text" ng-model="firstname" placeholder="Imię">
+        <input type="text" ng-model="lastname" placeholder="Nazwisko">
+    </div>
+    
+    <div ng-hide="filtered.length">Brak elementów do wyświetlenia</div>
+    <div ng-show="filtered.length">Znaleziono <strong>{{ filtered.length > 1 && filtered.length < 5 ? filtered.length + ' elementy' : (filtered.length == 1 ? '1 element' : filtered.length + ' elementów') }}</strong></div>
+    
+    <ul>
+        <li ng-repeat="item in filtered = (data | filter: {firstName: firstname, lastName: lastname})">
+            <p>ID: {{ item.id }}</p>
+            <p>Imię: {{ item.firstName }}</p>
+            <p>Nazwisko: {{ item.lastName }}</p>
+            <p>{{ item.description }}</p>
+            <button type="button">Akcja</button>
+        </li>
+    </ul>
+</div>

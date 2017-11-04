@@ -1,0 +1,55 @@
+{
+  "json":[
+    {
+      "id":"23",
+      "firstName":"Jan",
+      "lastName":"Kowalski",
+      "description":"Opis Jana Kowalskiego"
+    },{
+      "id":"56",
+      "firstName":"Marek",
+      "lastName":"Nowak",
+      "description":"Opis Marka Nowaka"
+    },{
+      "id":"4",
+      "firstName":"Jan",
+      "lastName":"Powolny",
+      "description":"Opis Jana Powolnego"
+    },{
+      "id":"18",
+      "firstName":"Sebastian",
+      "lastName":"Dresiak",
+      "description":"Opis Sebastiana Dresiaka"
+    },{
+      "id":"21",
+      "firstName":"Brajan",
+      "lastName":"Dżonson",
+      "description":"Opis Brajana Dżonsona"
+    },{
+      "id":"70",
+      "firstName":"Jerzy",
+      "lastName":"Kowalski",
+      "description":"Opis Jerzego Kowalskiego"
+    },{
+      "id":"123",
+      "firstName":"Jan",
+      "lastName":"Marek",
+      "description":"Opis Jana Marka"
+    },{
+      "id":"69",
+      "firstName":"Zofia",
+      "lastName":"Potocka",
+      "description":"Opis Zofii Potockiej"
+    },{
+      "id":"42",
+      "firstName":"Natalia",
+      "lastName":"Nowak",
+      "description":"Opis Natalii Nowak"
+    },{
+      "id":"82",
+      "firstName":"Władek",
+      "lastName":"Zdenkiewicz",
+      "description":"Opis Władka Zdenkiewicza"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<h1>Formularz</h1>
+
+<form name="form" novalidate>    
+    <div class="clearfix m-b-20">
+        <label for="firstname" class="clearfix">Imię</label>
+        <input type="text" id="firstname" name="firstname" ng-model="firstname" required>
+        
+        <div ng-show="form.$submitted || form.firstname.$touched">
+            <div ng-show="form.firstname.$error.required">To pole jest wymagane</div>
+        </div>
+    </div>
+    
+    <div class="clearfix m-b-20">
+        <label for="lastname" class="clearfix">Nazwisko</label>
+        <input type="text" id="lastname" name="lastname" ng-model="lastname" required>
+        
+        <div ng-show="form.$submitted || form.lastname.$touched">
+            <div ng-show="form.lastname.$error.required">To pole jest wymagane</div>
+        </div>
+    </div>
+    
+    <div class="clearfix m-b-20">
+        <label for="email" class="clearfix">E-mail</label>
+        <input type="email" id="email" name="email" ng-model="email" required>
+        
+        <div ng-show="form.$submitted || form.email.$touched">
+            <div ng-show="form.email.$error.required">To pole jest wymagane</div>
+            <div ng-show="form.email.$error.email">To nie jest poprawny adres email</div>
+        </div>
+    </div>
+    
+    <button type="submit" ng-click="form.$valid && action()" ng-disabled="form.$invalid">Wyślij</button>
+</form>

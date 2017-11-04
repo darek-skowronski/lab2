@@ -1,0 +1,26 @@
+.active {
+    font-weight: 700;
+}
+
+.clearfix {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.ng-invalid.ng-touched, 
+.ng-submitted .ng-invalid {
+    border-color: red;
+}
+
+.ng-valid {
+    border-color: green;
+}
