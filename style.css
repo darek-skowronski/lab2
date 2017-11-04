@@ -16,11 +16,11 @@
     margin-bottom: 30px;
 }
 
-.ng-invalid.ng-touched, 
-.ng-submitted .ng-invalid {
+[name="form"] .ng-invalid.ng-touched, 
+[name="form"].ng-submitted .ng-invalid {
     border-color: red;
 }
 
-.ng-valid {
+[name="form"] .ng-valid {
     border-color: green;
 }
